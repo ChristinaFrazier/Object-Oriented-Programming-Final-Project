@@ -1,0 +1,3 @@
+- I revised my class descriptions
+- I added more classes to my class descriptions
+- I added my classes (Customer, Communication, DeliveryDriver, DeliveryVehicle, Order, Rating, CustomerAccountChanges, DriverAccountChanges) to the UML diagram
