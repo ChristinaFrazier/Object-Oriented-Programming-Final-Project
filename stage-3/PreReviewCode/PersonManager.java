@@ -41,10 +41,10 @@ class PersonManager {
     
     /**
      * This method adds new staff.
-     * @param staff A staff member from the Support Staff class.
+     * @param staffMember A staff member from the Support Staff class.
      */
-    public void addStaff(SupportStaff staff) {
-        this.staff.add(staff);
+    public void addStaff(SupportStaff staffMember) {
+        this.staff.add(staffMember);
         System.out.println("Staff added.");
 
     }
@@ -71,6 +71,15 @@ class PersonManager {
         // Remove the customer from the list.
         customers.remove(customers.indexOf(customer));
         System.out.println("Account deleted.");
+    }
+
+    /**
+     * This method removes staff.
+     * @param staffMember A staff member from the Support Staff class.
+     */
+    public void removeSupportStaff(SupportStaff staffMember) {
+        staff.remove(staffMember);
+        System.out.println("Staff member removed.");
     }
 
     /**
@@ -108,3 +117,4 @@ class PersonManager {
     }
     
 }
+
