@@ -36,7 +36,7 @@ class DeliveryVehicle {
         System.out.println("Model: " + model);
         System.out.println("Color: " + color);
         System.out.println("Vehicle Id: " + vehicleId);
-        System.out.println("Owner: " owner.getName());
+        System.out.println("Owner: " + owner.getName());
     }
 
     /**
@@ -91,4 +91,5 @@ class DeliveryVehicle {
         this.color = color;
         this.vehicleId  = owner.getId();
     }
+
 }
