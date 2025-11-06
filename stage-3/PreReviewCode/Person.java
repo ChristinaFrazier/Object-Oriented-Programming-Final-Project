@@ -1,7 +1,7 @@
 /**
  * This class holds people's infomration.
- * @author 
- * Date:
+ * @author Lauren White
+ * Date: 10/31/25
  * Assignment: Final Project, CSCI 2210
  */
 class Person {
@@ -67,4 +67,5 @@ class Person {
     public void setEmail(String email) {
         this.email = email;
     }
+
 }
