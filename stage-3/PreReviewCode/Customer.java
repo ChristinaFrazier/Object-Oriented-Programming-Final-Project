@@ -1,9 +1,9 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 /**
- * This class holds all customer information.
+ * This class holds a customer's information
  * @author Lauren White
- * Assignment: Final Project
+ * Assignment: Final Project, CSCI 2210
  * Date: 10/15/25
  */
 class Customer extends Person {
@@ -76,15 +76,13 @@ class Customer extends Person {
     }
 
     /**
-     * This method allows users to enter their address.
+     * This method allows users to enter an address.
      */
     public void enterAddress () {
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter your address: ");
+        System.out.print("Enter customer address: ");
         String userAddress = in.nextLine();
         this.address = userAddress;
-        System.out.println("Your address has been stored.");
-
     }
 
     /**
@@ -95,4 +93,5 @@ class Customer extends Person {
         this.address = address;
     }
  
+
 }
