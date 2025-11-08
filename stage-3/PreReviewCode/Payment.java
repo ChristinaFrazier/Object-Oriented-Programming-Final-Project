@@ -45,10 +45,16 @@ public class Payment {
 
     /**
      * This method calculates the total payment amount
+     */
+    public void calculateTotal() {
+        totalAmount = totalAmount + taxAmount + deliveryFee;
+    }
+
+    /**
+     * This method gets the total amount for a payment
      * @return Returns the total amount as a float
      */
-    public float calculateTotal() {
-        totalAmount = totalAmount + taxAmount + deliveryFee;
+    public float getTotal() {
         return totalAmount;
     }
 
@@ -134,3 +140,4 @@ public class Payment {
         this.totalAmount = amount;
     }
 }
+
