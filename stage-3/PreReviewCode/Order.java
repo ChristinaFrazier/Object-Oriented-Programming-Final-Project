@@ -64,8 +64,8 @@ class Order {
      * @param total The payment total from the payment class.
      */
     public float getTotal(Payment total) {
-        orderTotal = total.calculateTotal();
-        return orderTotal;
+        orderTotal = total.getTotal();
+        return 0;
     }
 
     /**
@@ -122,5 +122,6 @@ class Order {
         printOrderInfo();
         System.out.println("Order Received!");
     }
+
 
 }
