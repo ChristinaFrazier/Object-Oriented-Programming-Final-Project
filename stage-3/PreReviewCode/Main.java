@@ -1061,7 +1061,8 @@ public class Main {
         payments.add(newPayment);
         System.out.println("\n[OK] Payment created successfully!");
         System.out.println("Payment ID: " + paymentID);
-        System.out.println("Total Amount: $" + newPayment.calculateTotal());
+        newPayment.calculateTotal();
+        System.out.println("Total Amount: $" + newPayment.getTotal());
     }
 
     private static void viewAllPayments() {
@@ -1074,7 +1075,7 @@ public class Main {
         } else {
             for (int i = 0; i < payments.size(); i++) {
                 System.out.println("\n Payment #" + (i + 1));
-                System.out.println("   Total: $" + payments.get(i).calculateTotal());
+                System.out.println("   Total: $" + payments.get(i).getTotal());
                 System.out.println("───────────────────────────────────────");
             }
         }
@@ -1173,7 +1174,7 @@ public class Main {
         System.out.println("Total Payments: " + payments.size());
         float totalRevenue = 0;
         for (Payment payment : payments) {
-            totalRevenue += payment.calculateTotal();
+            totalRevenue += payment.getTotal();
         }
         System.out.println("Total Revenue: $" + String.format("%.2f", totalRevenue));
 
