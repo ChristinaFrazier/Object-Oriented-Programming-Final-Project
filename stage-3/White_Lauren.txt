@@ -1,0 +1,4 @@
+- I added, removed, and updated parts of the UML Diagram
+- I wrote and uploaded the code for the classes: DeliveryDriver, Customer, Order, Communication, DeliveryVehicle, Person, and PersonManager
+- I wrote and uploaded the user guide for this system
+- I fixed an issue in Payment.java and Main.java
