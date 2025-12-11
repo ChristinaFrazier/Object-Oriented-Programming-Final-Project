@@ -1,4 +1,5 @@
 - I added and finished the code for all the GUI's, making it work well overall and uploaded the complete version of stage 4 project.
 - I specifically did the Driver management, Customer management, Order management, restaurant management, staff management, main menu, report management, payment management.
 - I wrote and uploaded the readme.txt
+- I updated and uploaded the UML diagram
   
