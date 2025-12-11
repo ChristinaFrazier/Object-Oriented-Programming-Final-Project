@@ -1,0 +1,25 @@
+Driver Management:
+I added the "Delete Support Staff" tab.
+
+In the "View and Add Driver Rating(s)" tab, I widened repositioned the driver rating text box so that the text can be viewed better. 
+
+In the "View and Add Driver Rating(s)" tab, I've changed the panel title name to match the tab title. 
+
+Order Management:
+I added the "Delete Order" tab.
+
+In the "View Order Details" tab, I got rid of that text box in it since the order details are popping up in another window. The text box was not doing anything, 
+so I figure there's no reason to have it since the information pops up in a new window.
+
+Staff Management:
+In the "Assign Issue Status" tab, since a new window with a text box pops up for the issue type, there doesn't need to be a text box in the tab window too. 
+I think it is better to have one or the other but not both. You can get rid of whichever one you want, and I will update the user guide with your choice.
+
+In the "Update Issue Status" tab, I've updated the label "Select New Status" to "Select New Issue Status" so that its purpose is clearer.
+
+In the "Update Issue Status" tab, I've updated the "Get Current Status" button text to "Get Staff Member's Status"
+
+In the "Update Issue Status" tab, I've updated the "Update Status" button to "Update Issue Status"
+
+Payment Management:
+In the "Generate Receipt" tab, I resized the receipt window so that everything is viewable without having to scroll horizontally.
